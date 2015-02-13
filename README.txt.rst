@@ -1,5 +1,7 @@
 .. contents::
     :backlinks: none
+    
+.. sectnum::
 
 Introduction
 ============
