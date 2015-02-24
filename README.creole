@@ -1,1 +1,1 @@
-nowikilog:string:delay:repeat:targetnowiki
+`log:string:delay:repeat:target`
