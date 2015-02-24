@@ -9,4 +9,4 @@ log:string:delay:repeat:target
 
 How are you, {{{log:string:delay:repeat:target}}}
 
-{​{​{no wiki markup processing}​}​}
+{​{​{log:string:delay:repeat:target}​}​}
