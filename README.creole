@@ -1,3 +1,8 @@
+Watch me:
+{{{
+log:string:delay:repeat:target
+}}}
+
 Hello there, {{{
 log:string:delay:repeat:target
 }}}
