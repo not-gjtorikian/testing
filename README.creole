@@ -1,3 +1,5 @@
-{{{
+Hello there, {{{
 log:string:delay:repeat:target
 }}}
+
+How are you, {{{log:string:delay:repeat:target}}}
