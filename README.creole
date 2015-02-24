@@ -1,1 +1,1 @@
-<tt>log:string:delay:repeat:target</tt>
+{{{log:string:delay:repeat:target}}}
