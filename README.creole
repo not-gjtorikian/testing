@@ -9,4 +9,4 @@ log:string:delay:repeat:target
 
 How are you, {{{log:string:delay:repeat:target}}}
 
-<code>{​{​{log:string:delay:repeat:target}​}​}</code>
+<tt>{​{​{log:string:delay:repeat:target}​}​}</tt>
