@@ -1,2 +1,2 @@
-[source,python]
-if n < 0: print 'Hello World!'
+[source,javascript]
+if n < 0: console.log('wut')
