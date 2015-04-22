@@ -1,0 +1,2 @@
+[source,python]
+if n < 0: print 'Hello World!'
