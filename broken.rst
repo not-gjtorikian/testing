@@ -308,8 +308,6 @@ Didn't yet install:
 - `bash-doc<https://software.opensuse.org/package/bash-doc>`_*
 - `samba-doc<https://software.opensuse.org/package/samba-doc>`_*
 
-.. sidebar::
-
   If you want to know `which package provides a certain file<http://unix.stackexchange.com/questions/158041/how-do-i-find-a-package-that-provides-a-given-file-in-opensuse>`_, then use this command::
 
       zypper search --provides --match-exact hg
