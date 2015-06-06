@@ -35,8 +35,8 @@ See `this output<http://www.linuxquestions.org/questions/linux-general-1/how-to-
 
     revue:/etc/xinetd.d # systemctl --failed --all
       UNIT              LOAD   ACTIVE SUB    DESCRIPTION
-    ● logrotate.service loaded failed failed Rotate log files
-    ● syslogd.service   loaded failed failed System Logging Service
+     logrotate.service loaded failed failed Rotate log files
+     syslogd.service   loaded failed failed System Logging Service
 
     LOAD   = Reflects whether the unit definition was properly loaded.
     ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
