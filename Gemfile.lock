@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/gjtorikian/html-proofer.git
-  revision: 36b3ead4047b24a0d180ce56d8f9bb1e3eaf166b
+  revision: 2707128aba5829ddb581fd3d9cafd40cf4239fc6
   branch: store-url-results
   specs:
     html-proofer (2.5.1)
