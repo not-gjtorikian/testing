@@ -1,1 +1,0 @@
-{"http://www.foofoofoo.biz/":{"time":"2015-10-27 17:19:11 -0700","filenames":["./output/file2.html"],"status":0,"message":"External link http://www.foofoofoo.biz/ failed: 0 Couldn't resolve host name"},"http://www.github.com/":{"time":"2015-10-27 17:19:11 -0700","filenames":["./output/file1.html"],"status":200,"message":""}}
