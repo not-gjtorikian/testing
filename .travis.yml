@@ -4,4 +4,4 @@ language: ruby
 cache:
   bundler: true
   directories:
-    - .htmlproofer
+  - .htmlproofer
