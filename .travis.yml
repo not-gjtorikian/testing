@@ -2,5 +2,6 @@ sudo: false
 language: ruby
 
 cache:
+  bundler: true
   directories:
-  - .htmlproofer
+    - tmp/.htmlproofer
