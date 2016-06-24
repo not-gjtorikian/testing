@@ -39,7 +39,7 @@ public class TrackTranslateAcceptanceTests extends AbstractAcceptanceTests {
     public void testTrackTranslateHasDirection() throws Exception {
         new TrackTranslatePage(driver).get(12, 14, 20)
             .checkForCaption("The Peach Open Move Project Presents", 1)
-            .checkForTranslation("ويعرض مشروع الفيلم الخ المaفتوحة", 1)
+            .checkForTranslation("ويعرض مشروع الفيلم الخوخ المفتوحة", 1)
             .checkForDirection("rtl", 1);
     }
 }
