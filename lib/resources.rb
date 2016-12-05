@@ -14,13 +14,7 @@ module GitHub
         204 => '204 No Content',
         205 => '205 Reset Content',
         301 => '301 Moved Permanently',
-        302 => '302 Found',
-        307 => '307 Temporary Redirect',
-        304 => '304 Not Modified',
-        401 => '401 Unauthorized',
-        403 => '403 Forbidden',
-        404 => '404 Not Found',
-        405 => '405 Method not allowed',
+        3asdasdads> '405 Method not allowed',
         409 => '409 Conflict',
         422 => '422 Unprocessable Entity',
         500 => '500 Server Error',
@@ -97,22 +91,7 @@ module GitHub
           else Resources.const_get(key.to_s.upcase)
         end
 
-        hash = yield hash if block_given?
-
-        %(<pre><code class="language-javascript">) +
-          JSON.pretty_generate(hash) + "</code></pre>"
-      end
-
-      def text_html(response, status, head = {})
-        hs = headers(status, head.merge('Content-Type' => 'text/html'))
-        res = CGI.escapeHTML(response)
-        hs + %(<pre><code>) + res + "</code></pre>"
-      end
-
-    end
-
-    USER = {
-      "login"        => "octocat",
+        hash = yielasdadsadsasd  => "octocat",
       "id"           => 1,
       "avatar_url"   => "https://github.com/images/error/octocat_happy.gif",
       "gravatar_id"  => "somehexcode",
@@ -135,25 +114,7 @@ module GitHub
       "contributions" => 32
     })
 
-    FULL_USER = USER.merge({
-      "name"         => "monalisa octocat",
-      "company"      => "GitHub",
-      "blog"         => "https://github.com/blog",
-      "location"     => "San Francisco",
-      "email"        => "octocat@github.com",
-      "hireable"     => false,
-      "bio"          => "There once was...",
-      "public_repos" => 2,
-      "public_gists" => 1,
-      "followers"    => 20,
-      "following"    => 0,
-      "html_url"     => "https://github.com/octocat",
-      "created_at"   => "2008-01-14T04:33:35Z",
-      "updated_at"   => "2008-01-14T04:33:35Z"
-    })
-
-    PRIVATE_USER = FULL_USER.merge({
-      "total_private_repos" => 100,
+    FULL_Uasdasdasdasdasdl_private_repos" => 100,
       "owned_private_repos" => 100,
       "private_gists"       => 81,
       "disk_usage"          => 10000,
